@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="yhteys.css" />
+<link rel="stylesheet" href="common.css" />
+<section id="yhteys">
+  <div class="wrapper">
+    <h3>Myyntipöydän varaus</h3>
+
+    <form action="https://tredu-form-app.herokuapp.com/lomakedemo.php" method="POST">
+      Toripäivä<br>
+      <input type="date" name="date" /><br>
+      Pöydän tunnus<br/>
+      <input type="text" name="tableid" required placeholder="esim. A1"/><br>
+      Varaajan nimi<br/>
+      <input type="text" name="fullname" required placeholder="Etunumi Sukunimi"/><br>
+
+      Sähköposti<br>
+      <input type="email" name="email" required placeholder="etu.sukunimi@mail.fi"/><br>
+
+      Viesti<br>
+      <textarea rows="6" cols="50" name="message"> </textarea>
+      <br>
+      <input type="submit" value="Lähetä" />
+    </form>
+  </div>
+</section>

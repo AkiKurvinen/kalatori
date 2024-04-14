@@ -1,0 +1,13 @@
+header {
+  background-image: url('img/fish_market.jpg');
+  background-size: cover;
+}
+.white-bg {
+  background-color: rgba(255, 255, 255, 0.8);
+  align-self: flex-end;
+  width: 100%;
+  display: flex;
+}
+.white-bg p {
+  max-width: 600px;
+}

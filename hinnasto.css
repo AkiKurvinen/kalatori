@@ -1,0 +1,30 @@
+#hinnasto {
+  background-color: white;
+}
+.map-img {
+  max-width: 100%;
+  min-width: 40vw;
+}
+figcaption {
+  font-style: italic;
+  background-color: white;
+  text-align: center;
+  padding: 1em;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+table tr td {
+  border: solid thin #333;
+  padding: 0.2em;
+}
+table tr:nth-child(2n) {
+  background-color: rgb(169, 255, 222);
+}
+.reserved {
+  background-color: rgb(255, 121, 121) !important;
+}
